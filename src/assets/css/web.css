@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background: #F3F3F3 !important;
+
+  position: relative;
+  margin: 0;
+  /*padding-bottom: 10rem;*/
+  min-height: 100%;
+}
+
+h1.title {color: #7A0002;  font-family: "roboto";  font-size: 2rem;  font-weight: bold;}
+.lnk-dark {color: #111 !important;text-decoration: none !important;font-weight: bold;}
+
+.title-content {color:#181818;font-family: "roboto";  font-size: 1.85rem;  font-weight: bold;position: relative;    display: initial;}
+.title-content:before {content: '';  position: absolute;  width: 80%;  height: 7px;  background: rgb(0 0 0 / 7%); bottom: -15px;}
+.title-subcontent {color: rgba(0, 0, 0, 0.5);  font-size: 1.1rem; font-weight: bold;}
+
+.btn-danger:hover, .btn-danger {  color: #fff;  background-color: #C1282A !important;  border-color: #204d74;}
+.btn-danger.focus, .btn-danger:focus {  color: #fff;  background-color: #C1282A !important;;  border-color: #122b40;}
+
+.btn-secondary:hover, .btn-secondary {  color: #fff;  background-color: #181818 !important;;  border-color: #204d74;}
+.btn-secondary.focus, .btn-secondary:focus {  color: #fff;  background-color: #181818 !important;;  border-color: #122b40;}
+
+/*
+header .bg-sup {background: #C1282A;line-height:50px; color:#fff}
+header .bg-sup .info-contact-header .pi{position:relative;bottom: -2px;}
+*/
+
+header .bg-white-sup {background: #fff;min-height:96px; color:#fff;border-bottom: 5px solid #ce2d34;border-top: 2px solid #ce2d34;padding-top:30px}
+
+header .bg-white-sup .navbar-brand {position: relative}
+header .bg-white-sup .navbar-brand img{position: absolute;  width: 65px;  top: -30px;}
+
+header .bg-white-sup .navbar {padding:0}
+header .bg-white-sup .navbar .navbar-nav {margin-left:95px}
+header .bg-white-sup .navbar .navbar-nav li strong{font-size: 1.5rem;color: #ce2d34;font-family: 'Roboto';}
+
+
+
+
+footer {padding: 20px 0; background: #626262;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+
+}
+
+footer hr {position:relative;z-index: 100;border-top: 1px solid #ffffff2e;}
+footer .inf-text {font-size: 0.9rem; color: #ffffffa8 !important;}
+footer .inf-logo img{position: relative;  top: 11px;width: 76px}
+footer .line-top { }
+
+
+.msj-err {
+  background: #c1282a0d;
+  padding: 2px 7px 4px 7px;
+  color: #ed3839;
+  font-size: 0.8rem;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  margin-top: -2px;
+  font-weight: 600;
+}
+.msj-err .pi{    font-size: 0.6rem;}
+
+.form-pedido .dropdown-comisiones{
+  width:calc(100% - 50px); line-height: 1.9rem;
+}
+
+.form-pedido .dropdown-comisiones .p-component{
+  width: 100%;
+}
+.form-pedido .dropdown-comisiones .p-dropdown .p-dropdown-label.p-placeholder {
+  font-size: 1.25rem;
+}
+.form-pedido .dropdown-comisiones .p-dropdown.p-component .country-item-value {
+  overflow: hidden;
+}
+
+
+.form-pedido .multiselect-comisiones{
+  width: 100%; line-height: 1.9rem;
+}
+.form-pedido .multiselect-comisiones .p-multiselect{
+  width: 100%;
+}
+.form-pedido .multiselect-comisiones .p-multiselect-token span{
+  max-width: 250px;
+  overflow: hidden;
+}
+
+
+/*
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
+  color: #495057;
+  background: rgb(206 45 52 / 10%) !important;
+}
+
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item:focus,
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item:focus
+{
+  box-shadow: none !important;
+}
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  color: #495057;
+  background: rgb(0 0 0 / 10%);
+}
+*/
+.p-multiselect .p-multiselect-panel {max-width:100%}
+.form-pedido .multiselect-comisiones .comision-sel-item {
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  background: #E3F2FD;
+  color: #495057;
+  border-radius: 3px;
+  display: inline-block;
+  position:relative;
+}
+/*
+.form-pedido .multiselect-comisiones .p-multiselect-panel .p-multiselect-items .p-multiselect-item.p-highlight {
+  color: #495057;
+  background: rgb(0 0 0 / 10%);
+}
+*/
+.form-pedido .multiselect-comisiones .comision-sel-item > .pi {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
+.form-pedido .multiselect-comisiones .comision-sel-item > div{
+  max-width: 400px;
+  overflow: hidden;
+  margin-right: 26px;
+}
+.form-pedido .p-inputwrapper-filled .p-multiselect.p-multiselect-chip .p-multiselect-label{
+  padding: 0.25rem 0.5rem 0rem 0.5rem;
+}
+/*
+.form-pedido .multiselect-comisiones .p-multiselect-token span:before{
+display:none
+}
+*/
+
+.aviso {color:#181818;font-family: "roboto";  font-size: 1.3rem; }
+.text-res {font-size: 1.5rem;  font-weight: bold;  font-family: 'Roboto';}
+
+
+
+@media (max-width: 1200px){
+  .form-pedido .multiselect-comisiones .comision-sel-item > div{max-width: 350px; }
+
+}
+
+
+@media (max-width: 992px){
+  header .bg-white-sup .navbar .navbar-nav li{margin-left:0px}
+  .form-pedido .multiselect-comisiones .comision-sel-item {display: block;  margin: 2px;}
+  .form-pedido .multiselect-comisiones .comision-sel-item > div{width:100%; }
+}
+
+
+@media (max-width: 520px){
+  header .bg-white-sup .navbar .navbar-nav li{margin-left:0px}
+  header .bg-white-sup .navbar .navbar-nav li strong {
+    font-size: 1rem;
+  }
+
+}
+@media (max-width: 490px){
+  .img-info .btn {margin: 5px !important;}
+}
+
+
+@media (max-width: 390px){
+  header .bg-white-sup {
+    min-height: 96px;
+    padding-top: 0;
+    line-height: 2;
+  }
+  header .bg-white-sup .navbar .navbar-nav li strong {
+    font-size: 1rem;
+    display:block;
+    width:90%;
+  }
+  header .bg-white-sup .navbar-brand img {
+    position: absolute;
+    width: 65px;
+    top: 7px;
+  }
+}
+
+
+

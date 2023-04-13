@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "assets/scss/variables";
+@import url("assets/css/web.css");
+//@import '~bootstrap/scss/bootstrap';
+
+@import "assets/scss/style";
+@import "assets/css/skin-modes";
+@import "assets/css/sidemenu";
+
+.menu-centrocosto-tmp {
+  margin-top: 11px;
+}
+.menu-centrocosto-tmp .pi-chevron-down:before {
+  display: none;
+}
+
+.menu-centrocosto-tmp .p-dropdown-trigger {
+  display: none;
+}
+
+.menu-centrocosto-tmp .p-dropdown-panel {
+  margin-left: -48px;
+  margin-top: 2px;
+}
+
+/* Importing Bootstrap SCSS file.
+@import '~bootstrap/scss/bootstrap';
+ */
+
+input.ng-dirty.ng-invalid {
+  border-color: #dc3545;
+}
+
+.message-error {
+  background: #c1282a0d;
+  padding: 2px 7px 4px 7px;
+  color: #ed3839;
+  font-size: 0.8rem;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  font-weight: 600;
+
+  .pi {
+    font-size: 0.6rem;
+  }
+}
+
+.dialog-maestro {
+  .p-dialog .p-dialog-content {
+    padding: 1.5rem !important;
+  }
+
+  .p-dialog .p-dialog-header {
+    padding: 1.5rem !important;
+  }
+}
+.master-capitalize,
+.master-capitalize button {
+  text-transform: capitalize !important;
+}
+.master-capitalize .p-datatable-tbody {
+  text-transform: none !important;
+}
+
+.master-capitalize{
+  .p-datatable-thead{
+    text-transform: uppercase !important;
+  }
+}
+
+.va-t{
+  vertical-align: top;
+}
+@media print {
+  #printContainer> div {
+    display: inline !important;
+  }
+}
+
+/*Visor PDF*/
+.pdfViewer{
+  background-color: #404040 !important;
+}
+
+pdf-toolbar #toolbarContainer {
+  background-color: #474747 !important;
+}
+
+pdf-toolbar button {
+  color: white !important;
+}
+
+pdf-page-number #numPages {
+  color: white !important;
+}
+
+pdf-sidebar-content #sidebarContent {
+  background-color: #353535 !important;
+}
+
+pdf-sidebar-toolbar #toolbarSidebar {
+  background-color: #474747 !important;
+}

@@ -1,0 +1,427 @@
+body, html{
+font-size: 0.9rem !important ;
+}
+a {cursor:pointer}
+
+.p-panelmenu .p-panelmenu-header > a {
+  background: initial;
+}
+.p-panelmenu .p-panelmenu-header > a:focus {
+  box-shadow: none;
+}
+
+
+.p-scrollpanel .p-scrollpanel-bar {
+  background: $black-4;
+  border: 0 none;
+}
+.p-scrollpanel-bar-y {
+  width: 6px !important;
+}
+
+
+.p-datatable .p-datatable-thead > tr > th,
+.p-datatable .p-datatable-tbody > tr > td {
+   border: 0;
+   border-bottom: 1px solid #e9ecef;
+   padding: 1rem 1.5rem;
+ }
+.p-datatable  {
+  &.p-datatable-gridlines .p-datatable-header {
+    border-width: 0;
+  }
+  .p-datatable-thead > tr > th, .p-datatable-tbody > tr > td {
+    border-top: 1px solid #e9ecef;
+  }
+
+
+  .p-datatable-header {
+    padding: 1rem 1.5rem;
+  }
+  .p-datatable-tbody > tr > td {
+    padding: 0.45rem 1.5rem;
+    .p-button {
+      padding: 0.2rem 0;
+    }
+  }
+
+  .p-progressbar {
+    height: 0.5rem;
+  }
+  .p-button {
+    background: initial;
+    color: rgb(237 29 36 / 70%);
+    border-color: rgb(237 29 36 / 70%);
+  }
+  .p-button:enabled:hover {
+    background: rgb(237 29 36 / 90%);;
+    color: $white;
+    border-color: rgb(237 29 36 / 100%);
+  }
+  .p-button:focus {
+    box-shadow: initial;
+  }
+}
+
+/*
+.p-dialog-content {padding: 0 !important;}
+*/
+
+.form-control-mask,
+.p-multiselect .p-multiselect-label, .p-dropdown .p-dropdown-label{    padding: 0.375rem 0.75rem !important;}
+
+.panel-static {
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.p-fieldset .p-fieldset-legend {
+  width: initial;
+  font-size: 0.9rem;
+  margin-left: 20px;
+}
+.timeline-secciones {
+
+  .p-timeline-event-opposite {
+    flex: 0 0 150px;
+  }
+
+  .p-timeline-event {
+    min-height: 40px;
+  }
+
+   .p-timeline-event-opposite, .p-timeline-event-content {
+    margin-top: -5px;
+  }
+}
+
+.accordion-seccion {
+  .p-accordion-header a {
+    display: block;
+  }
+}
+
+
+.wp-100 {
+  width: 100%;
+  .p-chips-multiple-container {width: 100% !important;}
+}
+
+
+.form-g.p-fieldset.p-fieldset-toggleable .p-fieldset-legend a {
+  padding: 0.5rem;
+}
+
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background: #ffffff;
+  border-color: #bf0909;
+  color: #bf0909;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
+  box-shadow: initial !important;
+}
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend a:focus {
+  box-shadow: initial !important;
+}
+
+
+.p-selectbutton {
+  line-height: 1.36;
+}
+.pley-fieldset.p-fieldset.p-fieldset-toggleable .p-fieldset-legend > a {
+  min-width: 180px;
+}
+
+
+.p-dialog .p-dialog-header {
+  padding: 0.8rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.firmante .p-disabled{display: none}
+
+.p-disabled {
+  .p-multiselect-token, .p-chips-token, .p-multiselect-token-icon {
+    background: transparent !important;
+  }
+}
+
+
+.firmante .p-multiselect-header .p-checkbox.p-component{display: none}
+
+
+.p-disabled {
+  background: #e9ecef;
+  opacity: 1;
+}
+
+.p-multiselect .p-multiselect-label {
+  padding-left: 0.9rem !important;
+}
+.p-multiselect.p-disabled .p-multiselect-label {
+  padding-left: 0.9rem !important;
+  font-size:1rem !important;
+  color: #495057 !important;
+}
+
+.p-cascadeselect .p-cascadeselect-label {
+  padding: 0.38rem 0.5rem !important;
+}
+
+.p-multiselect.p-multiselect-chip .p-multiselect-token {
+  padding: 0rem 0.2rem;
+}
+
+
+.p-skeleton {
+  height: 100%;
+}
+
+
+.p-datatable .p-sortable-column:focus {
+  box-shadow: initial;
+  outline: 0 none;
+}
+
+.p-datatable table {
+  table-layout: initial !important;
+  width: 100%;
+}
+
+.p-datatable .p-sortable-column.p-highlight {
+  color: #111;
+}
+.p-datatable .p-sortable-column.p-highlight:hover {
+  color: #111;
+}
+
+
+.p-datatable .p-datatable-thead > tr > th, .p-datatable .p-datatable-tbody > tr > td {
+  padding: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.p-inputtext {
+  padding: .375rem .75rem;
+}
+
+
+.p-cascadeselect-sublist[ng-reflect-level="1"] .p-cascadeselect-panel.p-cascadeselect-items {
+  max-height: 300px;
+  overflow-y: scroll;
+  overflow-x: visible
+}
+
+.p-overlaypanel {
+  z-index: 2500;
+  transform-origin: center top;
+  top: 33px !important;
+  left: 0px !important;
+  --overlayArrowLeft: 0px;
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content {
+  padding: 0 !important;
+}
+.p-button.p-button-outlined.tree {
+  background: #fff;
+  color: #616161;
+  border: 1px solid;
+  border-color: #ced4da;
+}
+
+.p-button.p-button-outlined.tree:enabled:active, .p-button.p-button-outlined.tree:enabled:hover {
+  background: #fff;
+  color: #616161;
+  border-color: #2196F3;
+}
+.p-button.p-button-outlined.tree.is-invalid {
+  border-color: #dc3545;
+}
+
+.p-button.tree:focus {
+  box-shadow: initial !important;
+}
+.p-button {
+  padding: .375rem .75rem;
+}
+.p-tree {
+  border: 0;
+  padding: 0;
+}
+
+
+.file-public.p-inputswitch {
+  transform: scale(0.7);
+}
+
+.scale7 {
+  transform: scale(0.7);
+}
+
+
+
+
+
+
+.multiselect-comisiones .comision-sel-item {
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  background: #E3F2FD;
+  color: #495057;
+  border-radius: 3px;
+  display: inline-block;
+  position:relative;
+}
+
+.multiselect-comisiones .comision-sel-item > .pi {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
+.multiselect-comisiones .comision-sel-item > div{
+  max-width: 400px;
+  overflow: hidden;
+  margin-right: 26px;
+}
+.multiselect-comisiones .p-inputwrapper-filled .p-multiselect.p-multiselect-chip .p-multiselect-label{
+  padding: 0.25rem 0.5rem 0rem 0.5rem;
+}
+
+
+
+.checkbox-right {margin-top: 7px;display: flex;flex-direction: row-reverse;}
+
+ngx-dropdown-treeview .dropdown-menu.show {width:100%}
+ngx-dropdown-treeview .form-check-label {padding: 4px;}
+ngx-dropdown-treeview .row-item {cursor:pointer}
+ngx-dropdown-treeview .row-item:hover{background:#e9ecef}
+ngx-dropdown-treeview .btn-seccion, ngx-dropdown-treeview .btn-seccion:hover{
+  border-color: #ced4da !important;
+  color: #6c757d !important;
+  background: initial !important;
+}
+
+
+.field-inactivo {border: 1px solid #bf0909;
+  border: 1px solid #bf0909;
+  font-size: 0.78rem;
+  padding: 1px 5px;
+  border-radius: 50px;
+  color: #bf0909;
+
+  opacity: 0.8;
+}
+
+.custom-spinner .p-progress-spinner-circle, .custom-spinner-flat .p-progress-spinner-circle {
+  animation: custom-progress-spinner-dash 1.5s ease-in-out infinite, custom-progress-spinner-color 6s ease-in-out infinite;
+}
+
+@keyframes custom-progress-spinner-color {
+  100%,
+  0% {
+    stroke: #c5c5c5;
+  }
+  40% {
+    stroke: #c5c5c5;
+  }
+  66% {
+    stroke: #c5c5c5;
+  }
+  80%,
+  90% {
+    stroke: #c5c5c5;
+  }
+}
+.custom-spinner {
+  position: fixed  !important;
+  z-index: -1 !important;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto  !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.custom-spinner-flat {
+  z-index: -1 !important;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto  !important;
+}
+
+
+
+
+.spinner-flat .p-progress-spinner-circle {
+  animation: custom-progress-spinner-dash 1.5s ease-in-out infinite, custom-progress-spinner-color 6s ease-in-out infinite;
+}
+
+@keyframes custom-progress-spinner-color {
+  100%,
+  0% {
+    stroke: #2f2f2f !important;
+  }
+  40% {
+    stroke: #2f2f2f !important;;
+  }
+  66% {
+    stroke: #2f2f2f !important;;
+  }
+  80%,
+  90% {
+    stroke: #2f2f2f !important;;
+  }
+}
+
+@keyframes custom-progress-spinner-dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+
+
+.p-timeline.p-timeline-vertical .p-timeline-event-content, .p-timeline.p-timeline-vertical .p-timeline-event-opposite {
+  padding-bottom: 1rem;
+}
+
+
+.p-dialog .p-dialog-header {
+  border-bottom: 1px solid #bf0909;
+}
+
+
+.table-pedidos {
+  .p-column-filter-menu-button, .p-column-filter-clear-button {
+    display: none;
+  }
+  .filtro-col {
+    padding: 0.4rem !important;
+    .p-inputtext {
+      padding: 0.15rem 0.3rem;
+    }
+  }
+}
+
+
+.p-datatable {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
