@@ -5,8 +5,8 @@
 export const environment = {
   production: false,
 
-  SYSTEM: 'MV',
-  SYSTEM_NAME: 'MESA DE PARTES DIGITAL DEL CONGRESO DE LA REPÚBLICA',
+  SYSTEM: 'LRD',
+  SYSTEM_NAME: 'LIBRO DE RECLAMOS DIGITAL DEL CONGRESO DE LA REPÚBLICA',
   SYSTEM_URL: 'http://localhost:4200/#/',
   MAX_UPLOAD_FILES: 57776537, // 55MB
   // API_AUTENTICACION: 'http://localhost:5959/autenticacion-externo-service',
