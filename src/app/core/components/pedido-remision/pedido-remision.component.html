@@ -1,0 +1,26 @@
+<p-table styleClass="w-100" [value]="remisiones" class="col-12 row">
+  <ng-template pTemplate="header">
+    <tr>
+      <th class="col-2" pSortableColumn="fecha">FECHA</th>
+      <th class="col-1" pSortableColumn="estado">TIPO REMISION</th>
+      <th class="col-3" pSortableColumn="comision">AREA EXTERNA</th>
+      <th class="col-3" pSortableColumn="comision">AREA  INTERNA</th>
+      <th class="col-3" pSortableColumn="observacion">DETALLE</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-remision>
+    <tr>
+      <td>{{remision?.createdAt | date: 'dd/MM/yyyy hh:mm a\''}}</td>
+      <td>{{remision?.tipoRemision.descripcion}}</td>
+      <td>{{remision?.areaExternaDes}}</td>
+      <td>{{remision?.areaInternaDes}}</td>
+      <td>{{remision?.detalle}}</td>
+    </tr>
+  </ng-template>
+
+  <ng-template pTemplate="emptymessage">
+    <tr>
+      <td colspan="8">No se encontraron registros.</td>
+    </tr>
+  </ng-template>
+</p-table>

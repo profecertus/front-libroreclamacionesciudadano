@@ -1,0 +1,14 @@
+.main-header {
+  .main-content, .container-fluid{
+    display: flex;
+  }
+
+  .app-content{
+    min-height: auto;
+  }
+
+  .logo{
+    width: 55px;
+    margin-right: 10px;
+  }
+}
